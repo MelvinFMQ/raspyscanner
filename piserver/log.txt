@@ -1,0 +1,63 @@
+Took photo sucessfully at Fri, 14 Nov 2014 21:04:55, which was sent to 192.168.1.52 
+Took photo sucessfully at Fri, 14 Nov 2014 21:07:00, which was sent to 192.168.1.52 
+Took photo sucessfully at Fri, 14 Nov 2014 21:08:06, which was sent to 192.168.1.52 
+Took photo sucessfully at Fri, 14 Nov 2014 21:08:24, which was sent to 192.168.1.52 
+Took photo sucessfully at Fri, 14 Nov 2014 21:11:26, which was sent to 192.168.1.52 
+Took photo sucessfully at Fri, 14 Nov 2014 21:13:50, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:08:25, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:11:40, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:17:54, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:27:17, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:28:31, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:30:22, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:41:41, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:42:43, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:50:02, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 15:52:13, which was sent to 192.168.1.52 
+Took photo sucessfully at Sat, 15 Nov 2014 16:08:03, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 16:09:46, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 16:10:59, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 16:12:44, which was sent to 192.168.1.110 
+Took photo sucessfully at Sat, 15 Nov 2014 16:17:46, which was sent to 192.168.1.110 
+Took photo sucessfully at Sat, 15 Nov 2014 16:18:47, which was sent to 192.168.1.110 
+Took photo sucessfully at Sat, 15 Nov 2014 16:31:06, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 16:32:36, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 16:34:42, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 17:06:33, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 17:07:58, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 17:11:19, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 17:19:46, which was sent to 192.168.1.60 
+Took photo sucessfully at Sat, 15 Nov 2014 17:19:51, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 17:21:01, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 17:30:26, which was sent to 192.168.1.51 
+Took photo sucessfully at Sat, 15 Nov 2014 17:33:31, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 18:02:41, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 18:15:09, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 18:46:52, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 19:04:08, which was sent to 192.168.1.51 
+Took photo sucessfully at Sat, 15 Nov 2014 19:20:05, which was sent to 192.168.1.50 
+Took photo sucessfully at Sat, 15 Nov 2014 19:44:41, which was sent to 192.168.1.50 
+Exception occured at Sun, 16 Nov 2014 07:36:55: [Errno 111] Connection refused 
+Exception occured at Sun, 16 Nov 2014 07:38:25: [Errno 111] Connection refused 
+Took photo sucessfully at Sun, 16 Nov 2014 07:41:02, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 07:51:49, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 07:54:29, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 07:56:55, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 08:02:03, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 08:02:32, which was sent to 192.168.1.54 
+Exception occured at Sun, 16 Nov 2014 09:13:11: [Errno 111] Connection refused 
+Exception occured at Sun, 16 Nov 2014 09:13:40: [Errno 111] Connection refused 
+Took photo sucessfully at Sun, 16 Nov 2014 09:15:22, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 09:15:58, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 09:16:23, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 09:18:54, which was sent to 192.168.1.54 
+Took photo sucessfully at Sun, 16 Nov 2014 10:35:33, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 10:36:51, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 10:49:43, which was sent to 192.168.1.59 
+Exception occured at Sun, 16 Nov 2014 11:25:42: [Errno 111] Connection refused 
+Took photo sucessfully at Sun, 16 Nov 2014 11:27:48, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 11:54:28, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 12:16:33, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 12:55:57, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 13:46:25, which was sent to 192.168.1.59 
+Took photo sucessfully at Sun, 16 Nov 2014 14:19:14, which was sent to 192.168.1.59 
