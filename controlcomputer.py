@@ -2,20 +2,19 @@ __author__ = 'melvinfoo'
 #script to control all the raspberry pis.
 #runs on python 2.7
 
-import socket
-import subprocess
-import time
-import os
-import os.path
+import socket, subprocess, time, os, os.path
 
-command_computer_ip = socket.gethostbyname(socket.gethostname())
 
 #setup
 MCAST_GRP = '224.1.1.1'
 MCAST_PORT = 5000
-NO_OF_PI = 14
+NO_OF_PI = 16
 
+# Get current computer's IP address
+command_computer_ip = socket.gethostbyname(socket.gethostname())
+# Create the socket
 broadcast_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+# Make the socket multicast-aware, and set TTL (time to live).
 broadcast_socket.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 2)
 
 
