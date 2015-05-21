@@ -2,7 +2,7 @@ __author__ = 'melvinfoo'
 #script to control all the raspberry pis.
 #runs on python 2.7
 
-import socket, subprocess, time, os, os.path
+import socket,subprocess, time, os, os.path
 
 
 #setup
@@ -51,11 +51,15 @@ def send_command(command):
 
 
 def start_scan():
+    #name of the scan
     name = raw_input('Please enter name of scan: ')
     command = 'shoot'
+    #create the file
     subprocess.call('mkdir scans/{0}'.format(name), shell=True)
+    #open the sockets for raspberry pi to connect
     start_upload_sockets(name, True)
     print('Sending command to take photo')
+    #finnally send the command
     send_command(command)
     while count_files(name) != NO_OF_PI:
         pass
