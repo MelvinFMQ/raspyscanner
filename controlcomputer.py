@@ -104,18 +104,17 @@ def align():
     time.sleep(10)
 
 def ping_all():
-    for i in range(NO_OF_PI):
-        rasp_pi_id = host[11:]
-        raspi = 'Raspberry Pi {0}'.format(rasp_pi_id)
+    for i in range(1, NO_OF_PI + 1):
+        host = '192.168.1.1{0:0>#2}'.format(i)
+        raspi = 'Raspberry Pi {0}'.format(i)
 
-        ping = subprocess.Popen('ping {0}'.format(host), stdout=subprocess.PIPE)
-        
-        output = ping.stdout.read()
-        output = output[:27]
+        ping = subprocess.Popen('ping -c 1 {0}'.format(host), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        out, error = ping.communicate()
 
-        ping.terminate()
+        out = out.strip()
+        out = out.split('\n')
 
-        if output == '64 bytes from {0}'.format(host):
+        if (len(out) >= 2) and (out[2][:27] == '64 bytes from {0}'.format(host)):
             print('{0} is online.'.format(raspi))
         else:
             print('{0} is offline.'.format(raspi))
