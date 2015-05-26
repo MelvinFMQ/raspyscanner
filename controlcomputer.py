@@ -21,6 +21,7 @@ broadcast_socket.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 2)
 def print_opt():
     print('')
     print('0. Start new scan')
+    print('94. Ping All')
     print('95. Align mode')
     print('96. Update Raspberry Pi Server software')
     print('97. Shutdown')
@@ -101,8 +102,25 @@ def align():
     command = 'align'
     send_command(command)
     time.sleep(10)
+
+def ping_all():
+    for i in range(NO_OF_PI):
+        rasp_pi_id = host[11:]
+        raspi = 'Raspberry Pi {0}'.format(rasp_pi_id)
+
+        ping = subprocess.Popen('ping {0}'.format(host), stdout=subprocess.PIPE)
+        
+        output = ping.stdout.read()
+        output = output[:27]
+
+        ping.terminate()
+
+        if output == '64 bytes from {0}'.format(host):
+            print('{0} is online.'.format(raspi))
+        else:
+            print('{0} is offline.'.format(raspi))
     
-options = {0: start_scan, 95: align, 96: update, 97: shut_down, 98: reboot, 99: quit_}
+options = {0: start_scan, 94: ping_all, 95: align, 96: update, 97: shut_down, 98: reboot, 99: quit_}
 
 
 def main():
